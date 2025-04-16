@@ -61,6 +61,7 @@ searchInput.addEventListener('input', debounce(()=>{
     const value = searchInput.value;
     if(value === ''){
         box.innerHTML ='';
+        resultUl.innerHTML = '';
     }
     getCountry(value);
 }, 500))

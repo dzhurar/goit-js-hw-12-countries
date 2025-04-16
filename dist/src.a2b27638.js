@@ -6283,6 +6283,7 @@ searchInput.addEventListener('input', (0, _debounce.default)(function () {
   var value = searchInput.value;
   if (value === '') {
     box.innerHTML = '';
+    resultUl.innerHTML = '';
   }
   getCountry(value);
 }, 500));
