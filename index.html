@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -15,5 +15,31 @@
     </div>
 
     <script type="module" src="./src/index.js"></script>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Country Finder</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@pnotify/core/dist/PNotify.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@pnotify/core/dist/BrightTheme.css" />
+  <link rel="stylesheet" href="./src/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <input placeholder="Enter country name" type="text" id="search">
+    <ul class="results"></ul>
+    <div id="box"></div>
+  </div>
+
+  <!-- CDN scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/debounce@1.2.1/index.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@pnotify/core/dist/PNotify.js"></script>
+
+  <!-- main script -->
+  <script src="./src/index.js"></script>
 </body>
 </html>
