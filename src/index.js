@@ -1,5 +1,5 @@
-import axios from "axios";
-import debounce from 'debounce';
+import axios from "../axios";
+import debounce from '../debounce';
 import { error } from '@pnotify/core';
 import '@pnotify/core/dist/PNotify.css';
 import '@pnotify/core/dist/BrightTheme.css';
